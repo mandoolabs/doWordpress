@@ -9,6 +9,8 @@ doWordpress plugins offers you put Mandoo on your Wordpress Site
 
 doWordpress plugin it's free
 
+doWordpress uses Mandoo doAPI for PHP, you can read more about doAPI.php on http://sourceforge.net/projects/mandoo/
+
 
 
 
