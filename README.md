@@ -7,7 +7,7 @@ You can read more about Mandoo on http://www.mandoocms.com
 
 doWordpress plugins offers you put Mandoo on your Wordpress Site
 
-doWordpress plugins it's free
+doWordpress plugin it's free
 
 
 
