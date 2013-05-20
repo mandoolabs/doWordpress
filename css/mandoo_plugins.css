@@ -1,0 +1,109 @@
+.icon32#icon-mandoo {
+	background-image:url(../images/mandoo-icon-32.png);
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+#adminmenu LI#toplevel_page_mandoo_plugins .wp-menu-image {
+	background-image:url(../images/mandoo-icon.png);
+	background-repeat:no-repeat;
+	background-position:0px -33px;
+}
+#adminmenu LI#toplevel_page_mandoo_plugins:hover .wp-menu-image, 
+#adminmenu LI#toplevel_page_mandoo_plugins.wp-menu-open .wp-menu-image {
+	background-position:0px -1px;
+}
+
+UL.list-group {
+	margin:0px;
+	padding:0px;
+}
+
+UL.list-group LI {
+	margin:0px;
+	padding:0px;
+	width:33%;
+	float:left;
+}
+
+#newsletter-preview-wrapper {
+	margin:0px;
+	padding:0px;
+	position:fixed;
+	top:10%;
+	left:10%;
+	overflow:auto;
+	width:80%;
+	height:80%;
+	background-color:#FFF;
+	display:none;
+	z-index:160000;
+}
+
+#newsletter-preview-content {
+	margin:20px;
+	margin-top:40px;
+	padding:0px;
+}
+
+.media-modal-backdrop {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	min-height: 360px;
+	background: #000;
+	opacity: .7;
+	z-index: 159900;
+}
+
+.media-modal-close {
+	position: absolute;
+	top: 7px;
+	right: 7px;
+	width: 30px;
+	height: 30px;
+	z-index: 1000;
+}
+
+.media-modal-close span {
+	display: block;
+	margin: 8px auto 0;
+	width: 15px;
+	height: 15px;
+	background-position: -100px 0;
+}
+
+.media-modal-icon {
+	background-image: url(../../../../wp-includes/images/uploader-icons.png);
+	background-repeat: no-repeat;
+}
+
+
+.wp-list-table .column-name { width: 45%; }
+.wp-list-table .column-code { width: 45%; }
+.wp-list-table .column-link { width: auto; }
+
+.wp-list-table th.show {
+	width: 24px;
+}
+
+.wp-list-table td {
+	padding: 8px;
+	line-height:24px;
+}
+
+.wp-list-table .column-link A.lupe {
+	background-image:url(../images/lupe.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	width:24px;
+	height:24px;
+	display:block;
+	text-indent:90000px;
+	float:right;
+}
+
+.submit .spinner {float:left;}
+

@@ -1,8 +1,8 @@
 <?php
 /*
-Plugin Name: Mandoo Page Form
+Plugin Name: Mandoo™ Plugin
 Plugin URI: https://www.mandoocms.com
-Description: 
+Description: Official Mandoo™ plugin. This plugin allows you to integrate some features of your account Mandoo in your Wordpress admin panel for ease of use.
 Author: Mandoo Team
 Version: 1.0
 Author URI: https://www.mandoocms.com
@@ -29,11 +29,14 @@ License: GPL2
  * Set up the autoloader.
  */
 
-set_include_path(get_include_path() . PATH_SEPARATOR . realpath(dirname(__FILE__) . '/lib/'));
-spl_autoload_extensions('.class.php');
-if (!class_exists("DoAPI")) {
-	require_once("lib/class.DoApi.php");
-}
+// set_include_path(get_include_path() . PATH_SEPARATOR . realpath(dirname(__FILE__) . '/lib/'));
+// spl_autoload_extensions('.class.php');
+
+require_once("lib/mandoo_plugin.class.php");
+require_once("lib/mandoo_widget.class.php");
+require_once("lib/page_form_list_table.class.php");
+require_once("lib/class.DoApi.php");
+
 if (! function_exists('buffered_autoloader')) {
 	function buffered_autoloader ($c) {
 		try {
@@ -46,6 +49,6 @@ if (! function_exists('buffered_autoloader')) {
 }
 spl_autoload_register('buffered_autoloader');
 
-$mandoo_plugin = Mandoo_Page_Form::get_instance();
+$mandoo_plugin = Mandoo_Plugin::get_instance();
 register_deactivation_hook(__FILE__, array(&$mandoo_plugin, 'remove_options'));
 ?>

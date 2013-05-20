@@ -1,0 +1,264 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Mandoo Plugin\n"
+"POT-Creation-Date: 2013-05-20 11:51+0100\n"
+"PO-Revision-Date: 2013-05-20 11:51+0100\n"
+"Last-Translator: Mandoo Team <help@mandoocms.com>\n"
+"Language-Team: Mandoo Team <help@mandoocms.com>\n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ../lib\n"
+
+#: ../lib/mandoo_plugin.class.php:93
+msgid "You'll need to set up the Mandoo API conection before use the widget. "
+msgstr "You'll need to set up the Mandoo API conection before use the widget. "
+
+#: ../lib/mandoo_plugin.class.php:93 ../lib/mandoo_plugin.class.php:99
+msgid "You can make your changes"
+msgstr "You can make your changes"
+
+#: ../lib/mandoo_plugin.class.php:93 ../lib/mandoo_plugin.class.php:99
+msgid "here"
+msgstr "here"
+
+#: ../lib/mandoo_plugin.class.php:96
+msgid ""
+"You'll need to select a doMail subscribers group to add your new users. "
+msgstr ""
+"You'll need to select a doMail subscribers group to add your new users. "
+
+#: ../lib/mandoo_plugin.class.php:99
+msgid ""
+"An error ocurred conecting with Mandoo API. Please check that api keys "
+"stored are correct. "
+msgstr ""
+"An error ocurred conecting with Mandoo API. Please check that api keys "
+"stored are correct. "
+
+#: ../lib/mandoo_plugin.class.php:102
+msgid "Saved settings"
+msgstr "Saved settings"
+
+#: ../lib/mandoo_plugin.class.php:171
+msgid "Enter a valid"
+msgstr "Enter a valid"
+
+#: ../lib/mandoo_plugin.class.php:171
+msgid ""
+"keys here to get started. Once you've done that, you can use the Mandoo™ "
+"Plugins."
+msgstr ""
+"keys here to get started. Once you've done that, you can use the Mandoo™ "
+"Plugins."
+
+#: ../lib/mandoo_plugin.class.php:172 ../lib/mandoo_plugin.class.php:176
+#: ../lib/mandoo_plugin.class.php:180 ../lib/mandoo_plugin.class.php:184
+msgid "Do not have"
+msgstr "Do not have"
+
+#: ../lib/mandoo_plugin.class.php:172 ../lib/mandoo_plugin.class.php:176
+#: ../lib/mandoo_plugin.class.php:180 ../lib/mandoo_plugin.class.php:184
+msgid "Create a Mandoo™ ID"
+msgstr "Create a Mandoo™ ID"
+
+#: ../lib/mandoo_plugin.class.php:172 ../lib/mandoo_plugin.class.php:176
+#: ../lib/mandoo_plugin.class.php:180 ../lib/mandoo_plugin.class.php:184
+msgid "Create an account now."
+msgstr "Create an account now."
+
+#: ../lib/mandoo_plugin.class.php:175
+msgid ""
+"Put the code in a \"Post\" or \"Page\" content to replace it by the "
+"corresponding form created with "
+msgstr ""
+"Put the code in a \"Post\" or \"Page\" content to replace it by the "
+"corresponding form created with "
+
+#: ../lib/mandoo_plugin.class.php:179
+msgid "Customize your template for send your news to your subscribers"
+msgstr "Customize your template for send your news to your subscribers"
+
+#: ../lib/mandoo_plugin.class.php:183 ../lib/admin/newsletter.php:108
+msgid "Select a"
+msgstr "Select a"
+
+#: ../lib/mandoo_plugin.class.php:183
+msgid "group where new registered users will be added."
+msgstr "group where new registered users will be added."
+
+#: ../lib/mandoo_plugin.class.php:193
+msgid "Forms"
+msgstr "Forms"
+
+#: ../lib/mandoo_plugin.class.php:251
+msgid "The shortcode not referer to any form created by"
+msgstr "The shortcode not referer to any form created by"
+
+#: ../lib/mandoo_plugin.class.php:251
+msgid "Please revise the page content."
+msgstr "Please revise the page content."
+
+#: ../lib/mandoo_plugin.class.php:261
+msgid "Accept newsletter subscribe"
+msgstr "Accept newsletter subscribe"
+
+#: ../lib/mandoo_plugin.class.php:294
+msgid "Accept the terms"
+msgstr "Accept the terms"
+
+#: ../lib/mandoo_plugin.class.php:317
+msgid "Template"
+msgstr "Template"
+
+#: ../lib/mandoo_plugin.class.php:317
+msgid "Send"
+msgstr "Send"
+
+#: ../lib/mandoo_widget.class.php:15
+msgid "Displays a form from your Mandoo™ doForms account."
+msgstr "Displays a form from your Mandoo™ doForms account."
+
+#: ../lib/mandoo_widget.class.php:16
+msgid "Mandoo™ Widget"
+msgstr "Mandoo™ Widget"
+
+#: ../lib/mandoo_widget.class.php:41
+msgid "Select a form :"
+msgstr "Select a form :"
+
+#: ../lib/page_form_list_table.class.php:150
+msgid "Name"
+msgstr "Name"
+
+#: ../lib/page_form_list_table.class.php:151
+msgid "Code"
+msgstr "Code"
+
+#: ../lib/admin/api.php:15 ../lib/admin/user-subscribe.php:14
+msgid "What you're trying to do looks a little shady."
+msgstr "What you're trying to do looks a little shady."
+
+#: ../lib/admin/api.php:32
+msgid "API Keys Settings"
+msgstr "API Keys Settings"
+
+#: ../lib/admin/api.php:54 ../lib/admin/newsletter.php:36
+#: ../lib/admin/user-subscribe.php:65
+msgid "Save Changes"
+msgstr "Save Changes"
+
+#: ../lib/admin/help.php:3
+msgid "Help"
+msgstr "Help"
+
+#: ../lib/admin/help.php:5
+msgid "Api Keys"
+msgstr "Api Keys"
+
+#: ../lib/admin/help.php:8
+msgid ""
+"In this section you can insert and modify keys to connect with Mandoo. If "
+"you have any problem or you do not know your keys go to Mandoo Account and "
+"see \"API\"."
+msgstr ""
+"In this section you can insert and modify keys to connect with Mandoo. If "
+"you have any problem or you do not know your keys go to Mandoo Account and "
+"see \"API\"."
+
+#: ../lib/admin/help.php:13
+msgid "Page Form"
+msgstr "Page Form"
+
+#: ../lib/admin/help.php:16
+msgid "User Subscribe"
+msgstr "User Subscribe"
+
+#: ../lib/admin/help.php:19
+msgid "Widget"
+msgstr "Widget"
+
+#: ../lib/admin/help.php:25
+msgid ""
+"If you have any questions, please contact us via help@mandoocms.com or fill "
+"in our contact form on our site"
+msgstr ""
+"If you have any questions, please contact us via help@mandoocms.com or fill "
+"in our contact form on our site"
+
+#: ../lib/admin/newsletter.php:3
+msgid "Newsletter"
+msgstr "Newsletter"
+
+#: ../lib/admin/newsletter.php:18
+msgid "Header"
+msgstr "Header"
+
+#: ../lib/admin/newsletter.php:24
+msgid "Background color"
+msgstr "Background color"
+
+#: ../lib/admin/newsletter.php:30
+msgid "Footer"
+msgstr "Footer"
+
+#: ../lib/admin/newsletter.php:38 ../lib/admin/newsletter.php:158
+msgid "Preview Mail"
+msgstr "Preview Mail"
+
+#: ../lib/admin/newsletter.php:47
+msgid "General options"
+msgstr "General options"
+
+#: ../lib/admin/newsletter.php:52
+msgid "Subject"
+msgstr "Subject"
+
+#: ../lib/admin/newsletter.php:62
+msgid "Select Mandoo doMail campaign"
+msgstr "Select Mandoo doMail campaign"
+
+#: ../lib/admin/newsletter.php:74 ../lib/admin/user-subscribe.php:49
+msgid "Select"
+msgstr "Select"
+
+#: ../lib/admin/newsletter.php:92
+msgid "Publish on RSS"
+msgstr "Publish on RSS"
+
+#: ../lib/admin/newsletter.php:108
+msgid "group to send the newsletter."
+msgstr "group to send the newsletter."
+
+#: ../lib/admin/newsletter.php:139
+msgid "Select your newsletter content."
+msgstr "Select your newsletter content."
+
+#: ../lib/admin/newsletter.php:156
+msgid "Send Mail"
+msgstr "Send Mail"
+
+#: ../lib/admin/newsletter.php:170
+msgid "Close"
+msgstr "Close"
+
+#: ../lib/admin/page-form.php:3
+msgid "Page Form Settings"
+msgstr "Page Form Settings"
+
+#: ../lib/admin/page-form.php:22
+msgid "Preview"
+msgstr "Preview"
+
+#: ../lib/admin/user-subscribe.php:28
+msgid "User Subscribe Settings"
+msgstr "User Subscribe Settings"
+
+#: ../lib/admin/user-subscribe.php:45
+msgid "Select a group: "
+msgstr "Select a group: "

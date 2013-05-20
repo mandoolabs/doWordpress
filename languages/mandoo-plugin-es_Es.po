@@ -1,0 +1,265 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Mandoo Plugin\n"
+"POT-Creation-Date: 2013-05-20 11:52+0100\n"
+"PO-Revision-Date: 2013-05-20 11:53+0100\n"
+"Last-Translator: Mandoo Team <help@mandoocms.com>\n"
+"Language-Team: Mandoo Team <help@mandoocms.com>\n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ../lib\n"
+
+#: ../lib/mandoo_plugin.class.php:93
+msgid "You'll need to set up the Mandoo API conection before use the widget. "
+msgstr "Necesita configurar la conexión a Mandoo API antes de usar el widget."
+
+#: ../lib/mandoo_plugin.class.php:93 ../lib/mandoo_plugin.class.php:99
+msgid "You can make your changes"
+msgstr "Puede hacer sus cambios"
+
+#: ../lib/mandoo_plugin.class.php:93 ../lib/mandoo_plugin.class.php:99
+msgid "here"
+msgstr "aquí"
+
+#: ../lib/mandoo_plugin.class.php:96
+msgid ""
+"You'll need to select a doMail subscribers group to add your new users. "
+msgstr ""
+"Necesita seleccionar un grupo de suscriptores de doMail al que añadir los "
+"nuevos usuarios."
+
+#: ../lib/mandoo_plugin.class.php:99
+msgid ""
+"An error ocurred conecting with Mandoo API. Please check that api keys "
+"stored are correct. "
+msgstr ""
+"Ocurrió un error durante la conexión con Mandoo API. Por favor revise que "
+"las claves de la api guardadas sean correctas."
+
+#: ../lib/mandoo_plugin.class.php:102
+msgid "Saved settings"
+msgstr "Ajustes guardados"
+
+#: ../lib/mandoo_plugin.class.php:171
+msgid "Enter a valid"
+msgstr "Introduzca una clave"
+
+#: ../lib/mandoo_plugin.class.php:171
+msgid ""
+"keys here to get started. Once you've done that, you can use the Mandoo™ "
+"Plugins."
+msgstr ""
+"válida para poder empezar. Una vez hecho podrá usar el  Mandoo™ Plugin."
+
+#: ../lib/mandoo_plugin.class.php:172 ../lib/mandoo_plugin.class.php:176
+#: ../lib/mandoo_plugin.class.php:180 ../lib/mandoo_plugin.class.php:184
+msgid "Do not have"
+msgstr "¿No tiene un"
+
+#: ../lib/mandoo_plugin.class.php:172 ../lib/mandoo_plugin.class.php:176
+#: ../lib/mandoo_plugin.class.php:180 ../lib/mandoo_plugin.class.php:184
+msgid "Create a Mandoo™ ID"
+msgstr "Crear un Mandoo™ ID"
+
+#: ../lib/mandoo_plugin.class.php:172 ../lib/mandoo_plugin.class.php:176
+#: ../lib/mandoo_plugin.class.php:180 ../lib/mandoo_plugin.class.php:184
+msgid "Create an account now."
+msgstr "? Crea una cuenta ahora."
+
+#: ../lib/mandoo_plugin.class.php:175
+msgid ""
+"Put the code in a \"Post\" or \"Page\" content to replace it by the "
+"corresponding form created with "
+msgstr ""
+"Pon el \"Código\" en una \"Entrada\" o una \"Página\" para reemplazarlo por "
+"el formulario correspondiente creado con "
+
+#: ../lib/mandoo_plugin.class.php:179
+msgid "Customize your template for send your news to your subscribers"
+msgstr "Personaliza tu plantilla para enviar tus novedades a tus suscriptores"
+
+#: ../lib/mandoo_plugin.class.php:183 ../lib/admin/newsletter.php:108
+msgid "Select a"
+msgstr "Seleccione un grupo de"
+
+#: ../lib/mandoo_plugin.class.php:183
+msgid "group where new registered users will be added."
+msgstr "donde serán añadidos los nuevos usuarios registrados."
+
+#: ../lib/mandoo_plugin.class.php:193
+msgid "Forms"
+msgstr "Formularios"
+
+#: ../lib/mandoo_plugin.class.php:251
+msgid "The shortcode not referer to any form created by"
+msgstr "El código no se relaciona con ningún formulario creado con"
+
+#: ../lib/mandoo_plugin.class.php:251
+msgid "Please revise the page content."
+msgstr "Por favor revise el contenido de la página."
+
+#: ../lib/mandoo_plugin.class.php:261
+msgid "Accept newsletter subscribe"
+msgstr "Acepto suscribirme al boletín"
+
+#: ../lib/mandoo_plugin.class.php:294
+msgid "Accept the terms"
+msgstr "Acepto los términos"
+
+#: ../lib/mandoo_plugin.class.php:317
+msgid "Template"
+msgstr "Plantilla"
+
+#: ../lib/mandoo_plugin.class.php:317
+msgid "Send"
+msgstr "Enviar"
+
+#: ../lib/mandoo_widget.class.php:15
+msgid "Displays a form from your Mandoo™ doForms account."
+msgstr "Muestra un formulario creado con su cuenta Mandoo™ doForms."
+
+#: ../lib/mandoo_widget.class.php:16
+msgid "Mandoo™ Widget"
+msgstr "Mandoo™ Widget"
+
+#: ../lib/mandoo_widget.class.php:41
+msgid "Select a form :"
+msgstr "Seleccione un formulario :"
+
+#: ../lib/page_form_list_table.class.php:150
+msgid "Name"
+msgstr "Nombre"
+
+#: ../lib/page_form_list_table.class.php:151
+msgid "Code"
+msgstr "Código"
+
+#: ../lib/admin/api.php:15 ../lib/admin/user-subscribe.php:14
+msgid "What you're trying to do looks a little shady."
+msgstr "Lo que está tratando de hacer es un poco dudoso."
+
+#: ../lib/admin/api.php:32
+msgid "API Keys Settings"
+msgstr "Ajustes API Keys"
+
+#: ../lib/admin/api.php:54 ../lib/admin/newsletter.php:36
+#: ../lib/admin/user-subscribe.php:65
+msgid "Save Changes"
+msgstr "Guardar los cambios"
+
+#: ../lib/admin/help.php:3
+msgid "Help"
+msgstr "Ayuda"
+
+#: ../lib/admin/help.php:5
+msgid "Api Keys"
+msgstr "Claves Api"
+
+#: ../lib/admin/help.php:8
+msgid ""
+"In this section you can insert and modify keys to connect with Mandoo. If "
+"you have any problem or you do not know your keys go to Mandoo Account and "
+"see \"API\"."
+msgstr ""
+"En esta sección se pueden insertar y modificar las claves para conectar con "
+"Mandoo. Si usted tiene cualquier problema o usted no sabe las claves vaya a "
+"Mandoo Account, sección  \"API \"."
+
+#: ../lib/admin/help.php:13
+msgid "Page Form"
+msgstr "Formulario en página"
+
+#: ../lib/admin/help.php:16
+msgid "User Subscribe"
+msgstr "Suscripción de usuarios"
+
+#: ../lib/admin/help.php:19
+msgid "Widget"
+msgstr "Widget"
+
+#: ../lib/admin/help.php:25
+msgid ""
+"If you have any questions, please contact us via help@mandoocms.com or fill "
+"in our contact form on our site"
+msgstr ""
+"Si tienes alguna duda, por favor contacta con nosotros a través del correo "
+"help@mandoocms.com o a través de nuestro formulario de contacto en nuestra "
+"web"
+
+#: ../lib/admin/newsletter.php:3
+msgid "Newsletter"
+msgstr "Boletín"
+
+#: ../lib/admin/newsletter.php:18
+msgid "Header"
+msgstr "Cabecera"
+
+#: ../lib/admin/newsletter.php:24
+msgid "Background color"
+msgstr "Color de fondo"
+
+#: ../lib/admin/newsletter.php:30
+msgid "Footer"
+msgstr "Pie"
+
+#: ../lib/admin/newsletter.php:38 ../lib/admin/newsletter.php:158
+msgid "Preview Mail"
+msgstr "Vista previa"
+
+#: ../lib/admin/newsletter.php:47
+msgid "General options"
+msgstr "Opciones generales"
+
+#: ../lib/admin/newsletter.php:52
+msgid "Subject"
+msgstr "Asunto"
+
+#: ../lib/admin/newsletter.php:62
+msgid "Select Mandoo doMail campaign"
+msgstr "Seleccione una campaña de Mandoo doMail"
+
+#: ../lib/admin/newsletter.php:74 ../lib/admin/user-subscribe.php:49
+msgid "Select"
+msgstr "Seleccione un grupo"
+
+#: ../lib/admin/newsletter.php:92
+msgid "Publish on RSS"
+msgstr "Publicar en el RSS"
+
+#: ../lib/admin/newsletter.php:108
+msgid "group to send the newsletter."
+msgstr "para enviar el boletín."
+
+#: ../lib/admin/newsletter.php:139
+msgid "Select your newsletter content."
+msgstr "Seleccione el contenido de su boletín."
+
+#: ../lib/admin/newsletter.php:156
+msgid "Send Mail"
+msgstr "Enviar"
+
+#: ../lib/admin/newsletter.php:170
+msgid "Close"
+msgstr "Cerrar"
+
+#: ../lib/admin/page-form.php:3
+msgid "Page Form Settings"
+msgstr "Ajustes Formulario en página"
+
+#: ../lib/admin/page-form.php:22
+msgid "Preview"
+msgstr "Vista previa"
+
+#: ../lib/admin/user-subscribe.php:28
+msgid "User Subscribe Settings"
+msgstr "Ajustes de Suscripción de usuarios"
+
+#: ../lib/admin/user-subscribe.php:45
+msgid "Select a group: "
+msgstr "Seleccione grupos: "
