@@ -141,7 +141,20 @@ class Mandoo_Plugin {
 	}
 	
 	public function set_up_admin_page () {
-		add_menu_page( 'Mandoo™', 'Mandoo™', 'activate_plugins', 'mandoo_plugins', '', '', 1002); 
+		global $menu,$submenu;
+
+
+        $position=50;
+        $positionplus1=$position+1;
+        while(isset($menu[$position]) || isset($menu[$positionplus1])){
+            $position++;
+            $positionplus1=$position+1;
+
+            if(!isset($menu[$position]) && isset($menu[$positionplus1])){
+                $position=$position+2;
+            }
+        }
+		add_menu_page( 'Mandoo™', 'Mandoo', 'activate_plugins', 'mandoo_plugins', '', '', $position); 
 		add_submenu_page('mandoo_plugins', 'Help', 'Help', 'activate_plugins', 'mandoo_plugins',  array(&$this, 'admin_help'));
 		add_submenu_page('mandoo_plugins', 'API Keys', 'API Keys', 'activate_plugins', 'api_keys', array(&$this, 'admin_page_api_keys'));
 		$hook = add_submenu_page('mandoo_plugins', 'Page Form', 'Page Form', 'activate_plugins', 'page_form', array(&$this, 'admin_page_form_page'));
